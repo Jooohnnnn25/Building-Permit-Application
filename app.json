@@ -23,7 +23,14 @@
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+        "bundler": "metro"
+    },
+
+     "scheme": "building-permit-application",
+
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
